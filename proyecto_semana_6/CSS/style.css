@@ -1,0 +1,166 @@
+/* importacion de font de google*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@500&display=swap');
+/* parametros basicos de medicion*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* funcion para que la barra se mueva de forma suave*/
+html{
+    scroll-behavior: smooth;
+}
+/* fondo para todas las paginas*/
+body{
+    background-image:url("../ASSETS/lines-pattern-black-background.avif");
+}
+/* propiedades para la scrollbarr*/
+body::-webkit-scrollbar{
+    width: 15px;
+    background: black;
+}
+/* propiedades para la parte clickeable */
+body::-webkit-scrollbar-thumb{
+
+    background-color: rgb(109, 78, 194);
+    border-radius: 1rem;
+}
+/* fondo para la scrollbar*/
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(183, 199, 38);
+}
+/* propiedades para el box del header*/
+.navbar{
+    background-color: rgb(109, 78, 194)!important;
+    position: sticky;
+    top: 0.5rem;
+    z-index: 1;
+    border-bottom: 0.2rem solid;
+}
+.btn{
+    background-color: rgb(183, 199, 38)!important;
+}
+.container-fluid{
+    background-color: rgb(109, 78, 194)!important;
+}
+/* proiedades para menu navbar*/
+.nav-link{
+    font-family: 'Josefin Sans', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
+    color: rgb(183, 199, 38)!important;
+    font-size: 1.5rem!important;
+    font-weight: bold!important;
+    text-shadow: 0px 1px 4px black!important;
+}
+
+.nav-link:hover{
+    color: white !important;
+    text-shadow: 0px 1px 4px rgb(183, 199, 38)!important;
+}
+#body_card{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+body{
+    background-color: black;
+}
+.frame_map{
+    box-shadow: 1px 1px 20px rgb(183, 199, 38);
+    border-radius: 10px;
+}
+.shop_map{
+    margin: 5rem;
+}
+#body_card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: normal;
+    justify-content: space-evenly;
+    align-items: normal;
+    margin-bottom: 5rem;
+}
+/* propiedades para el texto dentro de los paneles de los productos*/
+.card-body p{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center !important;
+    position: relative !important;
+    bottom: -0.5rem !important;
+    background-color: rgb(183, 199, 38) !important;
+    color: black !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 4px black !important;
+    margin: 1em !important;
+}
+/* propiedades para precio de los productos dentro de los paneles*/
+.card-body h3{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: double !important;
+    color: black !important;
+    text-align: center !important;
+    position: relative !important;
+    bottom: -0.5rem !important;
+    background-color: rgb(183, 199, 38) !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 4px black !important;
+}
+/* propiedades de los paneles de los articulos*/
+.card{
+    background-color: rgb(129, 115, 165);
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 4px black !important;
+    max-width: 345px !important;
+}
+/* propiedades para la box del footer */
+.page_footer{
+    background-color: rgb(109, 78, 194);
+    position: relative;
+    bottom: 2rem;
+}
+/* propieddades del panel dentro del box del footer*/
+.panel_footer{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem 0.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+    top: -0.5rem;
+    color: rgb(183, 199, 38);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 1px 4px black;
+}
+.sign_txt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(183, 199, 38);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 1px 4px black;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5rem;
+    background-color: rgb(109, 78, 194);
+    border-radius: 5px;
+}
+/* propiedades para el box del video importado*/
+.frame_video{
+    background-color: rgb(183, 199, 38);
+    box-shadow: 1px 1px 20px rgb(183, 199, 38);
+    border-radius: 10px;
+}
+/* propiedades del video importado*/
+.video_index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
